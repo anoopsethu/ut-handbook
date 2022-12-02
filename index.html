@@ -212,12 +212,6 @@ function loadApp() {
 		}
 	});
 
-	// Zoom event
-
-	if ($.isTouch)
-		$('.magazine-viewport').bind('zoom.doubleTap', zoomTo);
-	else
-		$('.magazine-viewport').bind('zoom.tap', zoomTo);
 
 
 	// Using arrow keys to turn the page
@@ -428,7 +422,6 @@ yepnope({
 	both: ['js/zoom.min.js', 'js/magazine.js', 'css/magazine.css'],
 	complete: loadApp
 });
-
 
 </script>
 
