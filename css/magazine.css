@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700');
+
 body{
 	overflow:hidden;
-	background-color:#fcfcfc;
+	font-family: 'DM Sans';
+	font-weight: 400;
 	margin:0;
 	padding:0;
 	background-image: url('../pages/bg.jpg');
@@ -36,6 +39,7 @@ body{
 }
 
 .magazine .region{
+	display: none;
 	position:absolute;
 	overflow:hidden;
 	background:#0066FF;
@@ -427,4 +431,72 @@ body{
   100% {
     background-position: 468px 0; 
   }
+}
+
+.book-preview-mob{
+	display: none;
+}
+.download-btn{
+	display: none;
+}
+.header{
+	display: none;
+}
+
+@media(max-width: 800px){
+	.header{
+		display: block;
+		margin-bottom: 30px;
+	}
+	.header h1{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 40px;
+		text-align: center;
+		color: #fff;
+	}
+	.header h3{
+		text-align: center;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 140%;
+		color: #fff;
+		opacity: 0.8;
+	}
+	.zetaux-logo{
+		position: static;
+		margin: 32px 0px;
+		padding: 0;
+	}
+	.zetaux-logo img {
+	    height: 36px;
+	}
+	.magazine-viewport {
+		display: none;
+	}
+	body{
+		background-image: url('../pages/bg-small.png');
+		background-size: cover;
+		padding: 0px 32px;
+	}
+	.book-preview-mob{
+		display: block;
+		margin: 40px -32px 30px -32px;
+	}
+	.book-preview-mob img{
+		width: 100%;
+	}
+	.download-btn{
+		display: block;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.download-btn img{
+		height: 52px;
+		border-radius: 1000px;
+		box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+
+	}
 }
