@@ -480,6 +480,8 @@ body{
 		background-image: url('../pages/bg-small.png');
 		background-size: cover;
 		padding: 0px 32px;
+	    height: 100vh;
+	    background-position: center;
 	}
 	.book-preview-mob{
 		display: block;
