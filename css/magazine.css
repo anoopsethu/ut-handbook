@@ -477,12 +477,11 @@ body{
 		display: none;
 	}
 	body{
-		background: url('../pages/bg-small.png'), #2C4989;
-		background-size: cover;
-		padding: 0px 32px;
-	    height: 100vh;
-	    background-position-x: center;
-	    background-position-y: bottom;
+	    background: url(../pages/bg-small.png), #2C4989;
+	    background-size: cover;
+	    padding: 0px 32px;
+	    min-height: 100vh;
+	    background-position: bottom;
 	}
 	.book-preview-mob{
 		display: block;
