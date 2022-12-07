@@ -504,7 +504,7 @@ body{
 	}
 }
 
-@media(max-height: 900px){
+@media(max-height: 920px){
 	.zetaux-logo{
 		display: none;
 	}
