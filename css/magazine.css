@@ -598,6 +598,7 @@ body{
 		position: static;
 		margin: 32px 0px;
 		padding: 0;
+		display: block !important;
 	}
 	.zetaux-logo img {
 	    height: 36px;
@@ -608,7 +609,7 @@ body{
 	body{
 	    background: url(../pages/bg-small.png), #2C4989;
 	    background-size: cover;
-	    padding: 0px 32px;
+	    padding: 0px 24px;
 	    min-height: 100vh;
 	    background-position: bottom;
 	}
