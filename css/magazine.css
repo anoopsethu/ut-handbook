@@ -571,6 +571,24 @@ body{
 .header{
 	display: none;
 }
+.download-btn-web{
+	display: inline-block;
+	position: fixed;
+	right: 32px;
+	bottom: 32px;
+	box-shadow: 0px 6px 20px rgba(0,0,0,0.2); 
+	border-radius: 1000px;
+	height: 52px;
+	margin-top: 0px;
+	transition: all 0.3s ease-out;
+}
+.download-btn-web img{
+	height: 52px;
+}
+.download-btn-web:hover{
+	box-shadow: 0px 8px 40px rgba(0,0,0,0.2); 
+	bottom: 42px;
+}
 
 @media(max-width: 800px){
 	.header{
@@ -629,7 +647,9 @@ body{
 		height: 52px;
 		border-radius: 1000px;
 		box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
-
+	}
+	.download-btn-web{
+		display: none;
 	}
 }
 
